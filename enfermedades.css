@@ -1,17 +1,17 @@
 @font-face{
 	font-family: tipo1;
-	src:url(fuentes/Snaps.OTF);
+	src:url(fuentes/Snaps.otf);
 }
 @font-face{
 	font-family: tipo3;
-	src:url(fuentes/leavesandground.TTF);
+	src:url(fuentes/leavesandground.ttf);
 }
 @font-face{
 	font-family: tipo4;
-	src:url(fuentes/NoVirus.TTF);
+	src:url(fuentes/NoVirus.ttf);
 }
 body{
-	background-image: url("fondo1.JPG");
+	background-image: url("fondo1.jpg");
 }
 .cabecera{ 
 	width: 90% ;
