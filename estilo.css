@@ -4,14 +4,14 @@
 }
 @font-face{
 	font-family: tipo2;
-	src:url(fuentes/Candyshop.TTF);
+	src:url(fuentes/Candyshop.ttf);
 }
 @font-face{
 	font-family: tipo3;
-	src:url(fuentes/leavesandground.TTF);
+	src:url(fuentes/leavesandground.ttf);
 }
 body{
-	background-image: url("fondo1.JPG");
+	background-image: url("fondo1.jpg");
 }
 .cabecera{ 
 	width: 90% ;
@@ -32,7 +32,7 @@ body{
 }
 .contenedor1{
 	width: 90%;
-	background-image: url("fondo3.JPG");
+	background-image: url("fondo3.jpg");
 	margin: 0px auto;
 	overflow: hidden;
 }
@@ -75,7 +75,7 @@ body{
 }
 .contenedor2{
 	width: 90%;
-	background-image: url("fondo4.JPG");
+	background-image: url("fondo4.jgp");
 	margin: 0px auto;
 	overflow: hidden;
 
