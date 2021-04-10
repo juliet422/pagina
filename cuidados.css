@@ -1,0 +1,186 @@
+@font-face{
+	font-family: tipo1;
+	src:url(fuentes/ARCO.ttf);
+}
+@font-face{
+	font-family: tipo3;
+	src:url(fuentes/leavesandground.TTF);
+}
+@font-face{
+	font-family: tipo4;
+	src:url(fuentes/Sketch3D.OTF);
+}
+body{
+	background-image: url("fondo1.JPG");
+}
+.cabecera{ 
+	width: 90% ;
+	height: 150px;	
+	font-family: tipo4;
+	text-align: center;
+	margin: 0px auto;
+	color: #12A8B7;
+	font-size: 65px;
+	border-radius: 5px;
+}
+.separador{
+	width: 90% ;
+	height: 40px;
+	margin:0px auto; 
+	background-image: url("separador1.jpg");
+	border-radius: 5px;
+}
+.contenedor1{
+	width: 90%;
+	background-image: url("fondo5.JFIF");
+	margin: 0px auto;
+	overflow: hidden;
+
+}
+.imagen1{
+	width: 300px;
+	height: auto;
+	float: right;
+	padding: 30px;
+	border-radius: 40px;
+}
+.imagen2{
+	width: 1150px;
+	height: auto;
+	float: center;
+}
+.imagen3{
+	width: 400px;
+	height: auto;
+	float: left;
+	padding: 25px;
+	border-radius: 30px;
+}
+.imagen4{
+	width: 400px;
+	height: auto;
+	float: left;
+	padding: 15px;
+	border-radius: 20px;
+}
+.caja1{
+	width: 95%;
+	height: 800px;
+	text-align: justify;
+	padding: 25px;
+	font-size: 18px;
+	color: #000000;
+}
+.caja2{
+	width: 95%;
+	height: 350px;
+	text-align: justify;
+	padding: 25px;
+	font-size: 18px;
+	color: #000000;
+}
+.caja3{
+	width: 95%;
+	height: 550px;
+	text-align: justify;
+	padding: 25px;
+	font-size: 18px;
+	color: #000000;
+}
+.caja4{
+	width: 95%;
+	height: 550px;
+	text-align: justify;
+	padding: 25px;
+	font-size: 18px;
+	color: #000000;
+}
+@media screen and (max-width: 800px){
+	body{
+		background: red;
+	}
+	.menu{
+		position: relative;
+	}
+	.cabecera{
+		font-size: 100px;
+	}
+	.separador{
+		height: 4px;
+	}
+	.imagen1{
+		width: 220px;
+	}
+	.caja1{
+		width: 92%;
+		height: 90%;
+		font-size: 18px;
+	}
+	.imagen2{
+		width: 100%;
+	}
+	.caja2{
+		width: 90%;
+		height: 100%
+	}
+/*Esto es lo del hamster*/
+	.imagen3{
+		width: 50%;
+	}
+	.caja3{
+		width: 90%;
+		height: 100%;
+	}
+	.imagen4{
+		width: 40%;
+	}
+	.caja4{
+		width: 90%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 500px){
+	body{
+		background: #510CF5;
+	}
+	.cabecera{
+		font-size: 80px;
+	}
+	.imagen1{
+		width: 330px;
+	}
+	.caja1{
+		width: 90%;
+		height: 90%;
+		font-size: 18px;
+	}
+	.imagen2{
+		width: 97%;
+		height: 100%;
+	}
+	.caja2{
+		width: 90%;
+		height: 100%
+		font-size: 18px;
+	}
+
+/*Esto es lo del hamster*/
+	.imagen3{
+		width: 85%;
+	}
+	.caja3{
+		width: 90%;
+		height: 100%;
+		font-size: 18px;
+	}
+	.imagen4{
+		width: 60%;
+	}
+	.caja4{
+		width: 90%;
+		height: 100%;
+		font-size: 18px;
+	}
+
+}
+

@@ -1,0 +1,48 @@
+.menu{
+	width: 90%;
+	height: 45px;
+	background: #731A58;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+.nav-enlace{
+	color: #000000;
+	padding: 10px 60px;
+	display: inline-block;
+	text-decoration:none;
+	font-size: 25px;
+	font-family: tipo3
+}
+.nav-enlace:hover{
+	background: #01DFD1;
+	
+}
+.button{
+	background: #01DFD1;
+	color: #DF0115;
+	padding: 10px 0;
+	border: 2px solid #97ab15;
+	display: none;
+}
+@media screen and (max-width: 800px){
+	.menu{
+		flex-direction: column;
+
+	}
+	.nav-enlace{
+		margin: 1px 0;
+		background: yellow;
+		
+	}
+	.button{
+		display: inline-block;
+
+	}
+	.desaparece{
+		display: none;
+
+	}	
+}
+

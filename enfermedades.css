@@ -1,0 +1,213 @@
+@font-face{
+	font-family: tipo1;
+	src:url(fuentes/Snaps.OTF);
+}
+@font-face{
+	font-family: tipo3;
+	src:url(fuentes/leavesandground.TTF);
+}
+@font-face{
+	font-family: tipo4;
+	src:url(fuentes/NoVirus.TTF);
+}
+body{
+	background-image: url("fondo1.JPG");
+}
+.cabecera{ 
+	width: 90% ;
+	height: 150px;	
+	font-family:tipo1 ;
+	text-align: center;
+	margin: 0px auto;
+	color: #FF0000;
+	font-size: 65px;
+	border-radius: 5px;
+}
+.separador{
+	width: 90% ;
+	height: 40px;
+	margin:0px auto; 
+	background-image: url("separador1.jpg");
+	border-radius: 5px;
+}
+.contenedor1{
+	width: 90%;
+	background-image: url("fondo4.jpg");
+	margin: 0px auto;
+	overflow: hidden;
+}
+.titulo{
+	font-family:tipo4 ;
+	text-align: center;
+	color: #FFFF00;
+	font-size: 25px;
+}
+.titulo2{
+	font-family:tipo4 ;
+	text-align: center;
+	color: #4DFF00;
+	font-size: 25px;
+}
+.titulo3{
+	font-family:tipo4 ;
+	text-align: center;
+	color: #F3FF00;
+	font-size: 25px;
+}
+.titulo4{
+	font-family:tipo4 ;
+	text-align: center;
+	color: #00E4FF;
+	font-size: 25px;
+}
+.video{
+	width: 600px;
+	height: 300px;
+	float: right;
+	padding: 20px;
+}
+.video2{
+	width: 100%;
+	height: 600px;
+		
+}
+.imagen1{
+	width: 200px;
+	height: auto;
+	float: right;
+	padding: 30px;
+			
+}
+.imagen2{
+	width: 400px;
+	height: auto;
+	float: right;
+	padding: 30px;
+			
+}
+.caja1{
+	width: 95%;
+	height: 600px;
+	text-align: justify;
+	padding: 25px;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+.caja2{
+	width: 95%;
+	height: 450px;
+	text-align: justify;
+	padding: 25px;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+.caja3{
+	width: 95%;
+	height: 550px;
+	padding: 25px;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+.caja4{
+	width: 95%;
+	height: 550px;
+	padding: 25px;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+@media screen and (max-width: 800px){
+	body{
+		background: red;
+	}
+	.cabecera{
+		font-size: 75px;
+	}
+
+	.separador{
+		height: 4px;
+	}
+
+	.caja1{
+		width: 90%;
+		height: 100%;
+		font-size: 19px;
+	}
+	.video{
+		width: 100%;
+		height: 300px;
+		position: relative;
+		left: 25px;
+	}
+	.nav-enlace{
+		height: 15px;}
+
+		/*Aqui termina el cuidado de perros*/
+
+	.caja2{
+		width: 90%;
+		height: 100%;
+	}
+	.imagen1{
+		width: 120px;
+		position: relative;
+		left: 20px;
+	} /*Aqui termina lo de gatos*/
+
+	.caja3{
+		width: 90%;
+		height: 100%;
+		padding: 10px;
+	}
+	.video2{
+		width: 108%;
+		height: 300px;
+	}/*Aqui termina el cuidado de peces*/
+	
+	.imagen2{
+		width: 40%;
+		position: relative;
+		left: 30px;
+	}
+	.caja4{
+		text-align: justify;
+		width: 90%;
+		height: 90%;
+	}
+
+}
+@media screen and (max-width: 500px){
+	body{
+		background: #003475;
+	}
+	.cabecera{
+		font-size: 45px;
+	}
+	.caja1{
+		width: 90%;
+		height: 100%;
+		font-size: 18px;
+	}
+	.video{
+		width: 105%;
+		height: 300px;	
+	}
+	.caja2{
+		width: 90%;
+		height: 100%;
+		font-size: 18px;
+	}
+	.video2{
+		width: 105%;
+		height: 300px;
+	}
+	.imagen2{
+		width: 50%;
+		
+	}
+	.caja4{
+		text-align: justify;
+		width: 90%;
+		height: 90%;
+		font-size: 18px;
+	}
+}

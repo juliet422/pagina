@@ -1,0 +1,216 @@
+@font-face{
+	font-family: tipo1;
+	src:url(fuentes/ARCO.ttf);
+}
+@font-face{
+	font-family: tipo2;
+	src:url(fuentes/Candyshop.TTF);
+}
+@font-face{
+	font-family: tipo3;
+	src:url(fuentes/leavesandground.TTF);
+}
+body{
+	background-image: url("fondo1.JPG");
+}
+.cabecera{ 
+	width: 90% ;
+	height: 150px;	
+	font-family: tipo1;
+	text-align: center;
+	margin: 0px auto;
+	color: #ED0993;
+	font-size: 55px;
+	border-radius: 5px;
+}
+.separador{
+	width: 90% ;
+	height: 40px;
+	margin:0px auto; 
+	background-image: url("separador1.jpg");
+	border-radius: 5px;
+}
+.contenedor1{
+	width: 90%;
+	background-image: url("fondo3.JPG");
+	margin: 0px auto;
+	overflow: hidden;
+}
+.imagen1{
+	width: 200px;
+	height: auto;
+	float: left;
+	padding: 30px;
+			
+}
+.imagen2{
+	width: 280px;
+	height: auto;
+	border-radius: 10px;
+}
+.imagen3{
+	width: 280px;
+	height: auto;
+	border-radius: 10px;	
+}
+.imagen4{
+	width: 280px;
+	height: auto;
+	border-radius: 10px;	
+}
+.imagen5{
+	width: 280px;
+	height: auto;
+	border-radius: 10px;	
+}
+.caja1{
+	width: 95%;
+	height: 300px;
+	text-align: justify;
+	padding: 25px;
+	float: left;
+	font-size: 18px;
+
+	color: #000000;
+}
+.contenedor2{
+	width: 90%;
+	background-image: url("fondo4.JPG");
+	margin: 0px auto;
+	overflow: hidden;
+
+}
+.caja2{
+	width: 280px;
+	height: 480;
+	float: left;
+	text-align: justify;
+	padding: 8px;
+	font-family: tipo2;
+	font-size:18px;
+	color: #000000;
+}
+.caja3{
+	width: 280px;
+	height: 480;
+	float: left;
+	text-align: justify;
+	padding: 8px;
+	font-family: tipo2;
+	font-size:18px;
+	color: #000000;
+}
+.caja4{
+	width: 280px;
+	height: 480;
+	float: left;
+	text-align: justify;
+	padding: 8px;
+	font-family: tipo2;
+	font-size:18px;
+	color: #000000;	
+}
+.caja5{
+	width: 280px;
+	height: 480;
+	float: left;
+	text-align: justify;
+	padding: 8px;
+	font-family: tipo2;
+	font-size:18px;
+	color: #000000;	
+}
+
+@media screen and (max-width: 800px){
+
+	body{
+		background: red;
+	}
+
+	.cabecera{
+		font-size: 48px;
+	}
+
+	.separador{
+		height: 4px;
+	}
+
+	.imagen1{
+		width: 120px;
+	}
+	.caja1{
+		width: 90%;
+		font-size: 19px;
+	}
+
+	.imagen2{
+		width: 100%;
+	}
+	.caja2{
+		margin: 0 20px;
+		text-align: center;
+		width: 90%;
+	}
+
+	.imagen3{
+		width: 100%;
+	}
+	.caja3{
+		margin: 0 20px;
+		text-align: center;
+		width: 90%;
+	}
+
+	.imagen4{
+		width: 100%;
+	}
+	.caja4{
+		margin: 0 20px;
+		text-align: center;
+		width: 90%;
+	}
+
+	.imagen5{
+		width: 100%;
+	}
+	.caja5{
+		margin: 0 20px;
+		text-align: center;
+		width: 90%;
+	}
+}	
+@media screen and (max-width: 500px){
+	body{
+		background: black;
+	}
+	.caja1{
+		width: 90%;
+		height: 550px;
+	}
+	.caja2{
+		width: 70%;
+		padding: 40px;
+		text-align: justify;
+	}
+	.caja3{
+		width: 70%;
+		padding: 40px;
+		text-align: justify;
+	}
+	.caja4{
+		width: 70%;
+		padding: 40px;
+		text-align: justify;
+	}
+	.caja5{
+		width: 70%;
+		padding: 40px;
+		text-align: justify;
+	}
+	.cabecera{
+		font-size: 40px;
+	}
+}
+
+
+

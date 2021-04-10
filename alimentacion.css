@@ -1,0 +1,200 @@
+@font-face{
+	font-family: tipo1;
+	src:url(fuentes/PokemonHollow.ttf);
+}
+@font-face{
+	font-family: tipo3;
+	src:url(fuentes/leavesandground.TTF);
+}
+body{
+	background-image: url("fondo1.JPG");
+}
+.cabecera{ 
+	width: 90% ;
+	height: 150px;	
+	font-family:tipo1 ;
+	text-align: center;
+	margin: 0px auto;
+	color: #D7FC04;
+	font-size: 65px;
+	border-radius: 5px;
+}
+.separador{
+	width: 90% ;
+	height: 40px;
+	margin:0px auto; 
+	background-image: url("separador.jpg");
+	border-radius: 5px;
+}
+.contenedor1{
+	width: 90%;
+	background-image: url("fondo6.jpg");
+	margin: 0px auto;
+	overflow: hidden;
+}
+.imagen1{
+	width: 1150px;
+	height: auto;
+	float: center;
+}
+.imagen2{
+	width: 1150px;
+	height: 500px;
+	float: center;
+}
+.imagen3{
+	width: 400px;
+	height: auto;
+	float: left;
+	padding: 15px;
+	border-radius: 30px;
+}
+.imagen4{
+	width: 400px;
+	height: auto;
+	float: left;
+	padding: 20px;
+	
+}
+.video{
+	width: 800px;
+	height: auto;
+	
+}
+.caja1{
+	width: 95%;
+	height: 1300px;
+	text-align: justify;
+	padding: 25px;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+.caja2{
+	width: 95%;
+	height: 550px;
+	text-align: justify;
+	padding: 20px;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+.caja3{
+	width: 95%;
+	height: 350px;
+	text-align: justify;
+	padding:25px ;
+	float: left;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+.caja4{
+	width: 95%;
+	height: 550px;
+	text-align: justify;
+	padding:25px ;
+	float: left;
+	font-size: 18px;
+	color: #F8F8F6;
+}
+@media screen and (max-width: 800px){
+
+	body{
+		background: #1D1212;
+	}
+
+	/*p{
+		font-size: 30px;
+	}*/
+
+	h1{
+		font-size: 32px;
+	}
+
+	.cabecera{
+		font-size: 48px;
+	}
+
+	.menu{
+		position: relative;
+	}
+
+	.separador{
+		height: 4px;
+	}
+
+	.caja1{ /*caja: alimentacion en perros*/
+		width: 90%;
+		height: 100%;
+		/*font-size: 20px;*/
+	}
+	/*Imagen de perros 1*/
+	.imagen1{
+		margin:0 25%;
+		width: 50%;
+	}
+	/*Imagen de perros 2*/
+	.imagen2{
+		margin: 0 25%;
+		width: 50%;
+		height: auto;
+	}
+
+	.caja2{ /*caja: alimentacion en gatos*/
+		width: 90%;
+		height: 100%;
+	}
+	/*Infografía*/
+	.imagen3{
+		width: 50%;
+	}
+
+	.caja3{ /*caja: alimentacion en hamsters*/
+		width: 90%;
+		height: 100%;
+	}
+	.imagen4{
+		width: 60%;
+	}
+
+	.caja4{
+		width: 93%;
+		height: 100%;
+	}
+
+	.video{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 500px){
+	body{
+		background: black;
+	}
+	.cabecera{
+		font-size: 40px;
+	}
+	h1{
+		font-size: 22px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	.imagen1{
+		margin: 0 15%;
+		width: 70%;
+	}
+	.imagen2{
+		margin: 0 15%;
+		width: 70%;
+	}
+	.imagen4{
+		margin: 0 10%;
+		width: 70%;
+	}
+	.video{
+		width: 80%;
+		height: 150px;
+		position: relative;
+		left: 25px;
+	}
+
+}
+
