@@ -4,14 +4,14 @@
 }
 @font-face{
 	font-family: tipo3;
-	src:url(fuentes/leavesandground.TTF);
+	src:url(fuentes/leavesandground.ttf);
 }
 @font-face{
 	font-family: tipo4;
-	src:url(fuentes/Sketch3D.OTF);
+	src:url(fuentes/Sketch3D.otf);
 }
 body{
-	background-image: url("fondo1.JPG");
+	background-image: url("fondo1.jpg");
 }
 .cabecera{ 
 	width: 90% ;
@@ -32,7 +32,7 @@ body{
 }
 .contenedor1{
 	width: 90%;
-	background-image: url("fondo5.JFIF");
+	background-image: url("fondo5.jfif");
 	margin: 0px auto;
 	overflow: hidden;
 
